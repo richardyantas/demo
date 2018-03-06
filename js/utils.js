@@ -3,11 +3,12 @@ function canvasInit(canvas,cx,cy){
 	cy = cy - CANVASHEIGHT/2;
 	canvas.width  = CANVASWIDTH;
 	canvas.height = CANVASHEIGHT;
-	canvas.style.position = 'relative';
+	canvas.style.position = 'absolute';
 	canvas.style.left = cx+"px";
 	canvas.style.top  = cy+"px";
 	canvas.style.background = COLORBACKGROUND;
 }
+
 
 function nodesInit(){
 	for(var x = 0; x <= CANVASWIDTH; x+=CANVASSTEPNODE){  // 51*51 = 2601 nodes

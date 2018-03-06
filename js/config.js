@@ -6,8 +6,8 @@ var CANVASSTEPNODE = 10;
 var NUMDIV = CANVASWIDTH/CANVASSTEPNODE;
 var w = window.innerWidth;
 var h = window.innerHeight;
-var cx = 200;//w/2;
-var cy = 200;//h/2;
+var cx = w/2;
+var cy = h/2;
 
 // COLORMAJORROADS
 var COLORBACKGROUND =  "rgb(249, 215, 139)";//"rgb(255, 80, 0)";
